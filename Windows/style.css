@@ -1,0 +1,356 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  background-color: #fff;
+}
+
+.padding {
+  padding: 15px 30px;
+}
+
+p {
+  /* 去除文字的行距 */
+  -webkit-margin-before: unset;
+          margin-block-start: unset;
+}
+
+a {
+  /* 超連結底線隱藏 */
+  text-decoration: unset;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  padding: 0 20px;
+  font-size: 7px;
+}
+
+ul {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.margin {
+  margin-right: unset;
+}
+
+#headerArce {
+  width: 100%;
+  height: 54px;
+  /* background-color: burlywood; */
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#headerArce .menu {
+  width: 90%;
+  height: 100%;
+  line-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  max-width: 1600px;
+}
+
+#headerArce .menu #logo {
+  width: 100px;
+  height: 60px;
+  background-image: url(./img/logo.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#headerArce .menu .menu-btnL {
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 10px;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1083px) {
+  #headerArce .menu .menu-btnL {
+    margin-left: 0;
+  }
+}
+
+#headerArce .menu .menu-btnR {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 7px;
+}
+
+@media screen and (max-width: 1083px) {
+  #headerArce .menu .menu-btnR {
+    height: 30vh;
+    display: none;
+  }
+}
+
+#headerArce .menu .menu-btnR .padding {
+  padding: 0 30px;
+}
+
+#section {
+  width: 100%;
+  /* height: 300vh; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+#section #primaryR1 {
+  background-image: url(./W-img/RE37lBy.webp);
+}
+
+@media screen and (max-width: 1083px) {
+  #section #primaryR1 {
+    width: 100%;
+    height: 55vw;
+    margin-left: unset;
+    margin-right: unset;
+    margin-bottom: 50px;
+  }
+}
+
+#section .primary-style1 {
+  width: 85%;
+  height: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+}
+
+#section #primaryR2 {
+  width: 85%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 1083px) {
+  #section #primaryR2 {
+    width: 100%;
+    height: 1000px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+#section #primaryR2 .block {
+  width: 30%;
+  height: 30vh;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 1083px) {
+  #section #primaryR2 .block {
+    width: 43%;
+    height: 50vw;
+    margin-right: -20px;
+    margin-left: 40px;
+    padding: 10px;
+  }
+}
+
+#section #primaryR2 .block #photoA {
+  background-image: url(./W-img/RE3NYMe.jpg);
+}
+
+#section #primaryR2 .block #photoB {
+  background-image: url(./W-img/RWfbJT.webp);
+}
+
+#section #primaryR2 .block #photoC {
+  background-image: url(./W-img/RW9wPJ.webp);
+}
+
+#section #primaryR2 .block #photoD {
+  background-image: url(./W-img/RE4dUlg.jpg);
+  margin-right: 0;
+}
+
+#section #primaryR2 .block .primary-style2 {
+  width: 100%;
+  height: 20vh;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1083px) {
+  #section #primaryR2 .block .primary-style2 {
+    height: 30vh;
+  }
+}
+
+#section #primaryR3 {
+  background-image: url(./img/06.jpg);
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 1083px) {
+  #section #primaryR3 {
+    width: 100%;
+    height: 55vw;
+    margin-left: unset;
+    margin-right: unset;
+    margin-bottom: 50px;
+  }
+}
+
+#section .primary-style1 {
+  width: 85%;
+  height: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+}
+
+#section .plant {
+  /* background-color: teal; */
+  margin-left: 75px;
+  padding: 20px;
+  font-size: 25px;
+}
+
+#section #primaryR4 {
+  /* background-color: palegreen; */
+  width: 85%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 1083px) {
+  #section #primaryR4 {
+    width: 100%;
+    height: 800px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 200px;
+  }
+}
+
+#section #primaryR4 .block {
+  width: 30%;
+  height: 30vh;
+  margin-right: 20px;
+  /* padding: 10px; */
+}
+
+@media screen and (max-width: 1083px) {
+  #section #primaryR4 .block {
+    width: 43%;
+    height: 50vw;
+    margin-right: -20px;
+    margin-left: 40px;
+    padding: 10px;
+  }
+}
+
+#section #primaryR4 .block #photoE {
+  background-image: url(./W-img/RE3NOni.webp);
+}
+
+#section #primaryR4 .block #photoF {
+  background-image: url(./img/08.jpg);
+}
+
+#section #primaryR4 .block #photoG {
+  background-image: url(W-img/RE1CmIw.webp);
+}
+
+#section #primaryR4 .block #photoH {
+  background-image: url(./img/10.jpg);
+  /* margin-right: 0; */
+}
+
+#section #primaryR4 .block .primary-style2 {
+  width: 100%;
+  height: 20vh;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1083px) {
+  #section #primaryR4 .block .primary-style2 {
+    height: 30vh;
+  }
+}
+
+.link {
+  width: 90%;
+  height: 100px;
+  /* background-color: tomato; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 50px;
+  margin: 0 auto;
+}
+
+#footer {
+  width: 100%;
+  height: 350px;
+  background-color: #f2f2f2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 1083px) {
+  #footer {
+    height: 600px;
+  }
+}
+
+#footer .footer_position {
+  width: 90%;
+  height: 80%;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#footer .footer-on {
+  max-width: calc(1600px + 10%);
+  padding: 0 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */
